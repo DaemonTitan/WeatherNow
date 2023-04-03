@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  WeatherNow
 //
-//  Created by Tony Chen on 4/4/2023.
 //
 
 import UIKit

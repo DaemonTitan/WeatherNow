@@ -13,9 +13,32 @@
 		F3D2923229DB9A6900F05277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D2923029DB9A6900F05277 /* Main.storyboard */; };
 		F3D2923429DB9A6A00F05277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D2923329DB9A6A00F05277 /* Assets.xcassets */; };
 		F3D2923729DB9A6A00F05277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D2923529DB9A6A00F05277 /* LaunchScreen.storyboard */; };
-		F3D2924229DB9A6B00F05277 /* WeatherNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2924129DB9A6B00F05277 /* WeatherNowTests.swift */; };
-		F3D2924C29DB9A6B00F05277 /* WeatherNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2924B29DB9A6B00F05277 /* WeatherNowUITests.swift */; };
-		F3D2924E29DB9A6B00F05277 /* WeatherNowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2924D29DB9A6B00F05277 /* WeatherNowUITestsLaunchTests.swift */; };
+		F3D2925B29DB9AF500F05277 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2925A29DB9AF500F05277 /* APIKey.swift */; };
+		F3D2925D29DB9B0400F05277 /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2925C29DB9B0400F05277 /* BackgroundImage.swift */; };
+		F3D2925F29DB9B1400F05277 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2925E29DB9B1400F05277 /* WeatherData.swift */; };
+		F3D2926129DB9B2400F05277 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2926029DB9B2400F05277 /* APIService.swift */; };
+		F3D2926329DB9B4000F05277 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2926229DB9B4000F05277 /* AlertManager.swift */; };
+		F3D2926629DB9BDD00F05277 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = F3D2926529DB9BDD00F05277 /* SkeletonView */; };
+		F3D2926929DB9C2B00F05277 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F3D2926829DB9C2B00F05277 /* Lottie */; };
+		F3D2926C29DB9C4500F05277 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F3D2926B29DB9C4500F05277 /* Alamofire */; };
+		F3D2928029DB9DF700F05277 /* 50n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2926E29DB9DF600F05277 /* 50n.json */; };
+		F3D2928129DB9DF700F05277 /* 10n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2926F29DB9DF600F05277 /* 10n.json */; };
+		F3D2928229DB9DF700F05277 /* 09n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927029DB9DF600F05277 /* 09n.json */; };
+		F3D2928329DB9DF700F05277 /* 11n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927129DB9DF600F05277 /* 11n.json */; };
+		F3D2928429DB9DF700F05277 /* 02n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927229DB9DF600F05277 /* 02n.json */; };
+		F3D2928529DB9DF700F05277 /* 03n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927329DB9DF600F05277 /* 03n.json */; };
+		F3D2928629DB9DF700F05277 /* 13d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927429DB9DF600F05277 /* 13d.json */; };
+		F3D2928729DB9DF700F05277 /* 01d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927529DB9DF600F05277 /* 01d.json */; };
+		F3D2928829DB9DF700F05277 /* 03d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927629DB9DF700F05277 /* 03d.json */; };
+		F3D2928929DB9DF700F05277 /* 02d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927729DB9DF700F05277 /* 02d.json */; };
+		F3D2928A29DB9DF700F05277 /* 11d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927829DB9DF700F05277 /* 11d.json */; };
+		F3D2928B29DB9DF700F05277 /* 50d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927929DB9DF700F05277 /* 50d.json */; };
+		F3D2928C29DB9DF700F05277 /* 10d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927A29DB9DF700F05277 /* 10d.json */; };
+		F3D2928D29DB9DF700F05277 /* 13n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927B29DB9DF700F05277 /* 13n.json */; };
+		F3D2928E29DB9DF700F05277 /* 09d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927C29DB9DF700F05277 /* 09d.json */; };
+		F3D2928F29DB9DF700F05277 /* 04n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927D29DB9DF700F05277 /* 04n.json */; };
+		F3D2929029DB9DF700F05277 /* 01n.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927E29DB9DF700F05277 /* 01n.json */; };
+		F3D2929129DB9DF700F05277 /* 04d.json in Resources */ = {isa = PBXBuildFile; fileRef = F3D2927F29DB9DF700F05277 /* 04d.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +68,30 @@
 		F3D2923629DB9A6A00F05277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3D2923829DB9A6A00F05277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D2923D29DB9A6B00F05277 /* WeatherNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3D2924129DB9A6B00F05277 /* WeatherNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNowTests.swift; sourceTree = "<group>"; };
 		F3D2924729DB9A6B00F05277 /* WeatherNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3D2924B29DB9A6B00F05277 /* WeatherNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNowUITests.swift; sourceTree = "<group>"; };
-		F3D2924D29DB9A6B00F05277 /* WeatherNowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3D2925A29DB9AF500F05277 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		F3D2925C29DB9B0400F05277 /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
+		F3D2925E29DB9B1400F05277 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		F3D2926029DB9B2400F05277 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F3D2926229DB9B4000F05277 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		F3D2926E29DB9DF600F05277 /* 50n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 50n.json; sourceTree = "<group>"; };
+		F3D2926F29DB9DF600F05277 /* 10n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10n.json; sourceTree = "<group>"; };
+		F3D2927029DB9DF600F05277 /* 09n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 09n.json; sourceTree = "<group>"; };
+		F3D2927129DB9DF600F05277 /* 11n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 11n.json; sourceTree = "<group>"; };
+		F3D2927229DB9DF600F05277 /* 02n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 02n.json; sourceTree = "<group>"; };
+		F3D2927329DB9DF600F05277 /* 03n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 03n.json; sourceTree = "<group>"; };
+		F3D2927429DB9DF600F05277 /* 13d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 13d.json; sourceTree = "<group>"; };
+		F3D2927529DB9DF600F05277 /* 01d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 01d.json; sourceTree = "<group>"; };
+		F3D2927629DB9DF700F05277 /* 03d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 03d.json; sourceTree = "<group>"; };
+		F3D2927729DB9DF700F05277 /* 02d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 02d.json; sourceTree = "<group>"; };
+		F3D2927829DB9DF700F05277 /* 11d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 11d.json; sourceTree = "<group>"; };
+		F3D2927929DB9DF700F05277 /* 50d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 50d.json; sourceTree = "<group>"; };
+		F3D2927A29DB9DF700F05277 /* 10d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10d.json; sourceTree = "<group>"; };
+		F3D2927B29DB9DF700F05277 /* 13n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 13n.json; sourceTree = "<group>"; };
+		F3D2927C29DB9DF700F05277 /* 09d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 09d.json; sourceTree = "<group>"; };
+		F3D2927D29DB9DF700F05277 /* 04n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 04n.json; sourceTree = "<group>"; };
+		F3D2927E29DB9DF700F05277 /* 01n.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 01n.json; sourceTree = "<group>"; };
+		F3D2927F29DB9DF700F05277 /* 04d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 04d.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D2926C29DB9C4500F05277 /* Alamofire in Frameworks */,
+				F3D2926629DB9BDD00F05277 /* SkeletonView in Frameworks */,
+				F3D2926929DB9C2B00F05277 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				F3D2922929DB9A6900F05277 /* WeatherNow */,
-				F3D2924029DB9A6B00F05277 /* WeatherNowTests */,
-				F3D2924A29DB9A6B00F05277 /* WeatherNowUITests */,
 				F3D2922829DB9A6900F05277 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +143,7 @@
 		F3D2922929DB9A6900F05277 /* WeatherNow */ = {
 			isa = PBXGroup;
 			children = (
+				F3D2926D29DB9DDD00F05277 /* WeatherAnimation */,
 				F3D2922A29DB9A6900F05277 /* AppDelegate.swift */,
 				F3D2922C29DB9A6900F05277 /* SceneDelegate.swift */,
 				F3D2922E29DB9A6900F05277 /* ViewController.swift */,
@@ -106,25 +151,38 @@
 				F3D2923329DB9A6A00F05277 /* Assets.xcassets */,
 				F3D2923529DB9A6A00F05277 /* LaunchScreen.storyboard */,
 				F3D2923829DB9A6A00F05277 /* Info.plist */,
+				F3D2925A29DB9AF500F05277 /* APIKey.swift */,
+				F3D2925C29DB9B0400F05277 /* BackgroundImage.swift */,
+				F3D2925E29DB9B1400F05277 /* WeatherData.swift */,
+				F3D2926029DB9B2400F05277 /* APIService.swift */,
+				F3D2926229DB9B4000F05277 /* AlertManager.swift */,
 			);
 			path = WeatherNow;
 			sourceTree = "<group>";
 		};
-		F3D2924029DB9A6B00F05277 /* WeatherNowTests */ = {
+		F3D2926D29DB9DDD00F05277 /* WeatherAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				F3D2924129DB9A6B00F05277 /* WeatherNowTests.swift */,
+				F3D2927529DB9DF600F05277 /* 01d.json */,
+				F3D2927E29DB9DF700F05277 /* 01n.json */,
+				F3D2927729DB9DF700F05277 /* 02d.json */,
+				F3D2927229DB9DF600F05277 /* 02n.json */,
+				F3D2927629DB9DF700F05277 /* 03d.json */,
+				F3D2927329DB9DF600F05277 /* 03n.json */,
+				F3D2927F29DB9DF700F05277 /* 04d.json */,
+				F3D2927D29DB9DF700F05277 /* 04n.json */,
+				F3D2927C29DB9DF700F05277 /* 09d.json */,
+				F3D2927029DB9DF600F05277 /* 09n.json */,
+				F3D2927A29DB9DF700F05277 /* 10d.json */,
+				F3D2926F29DB9DF600F05277 /* 10n.json */,
+				F3D2927829DB9DF700F05277 /* 11d.json */,
+				F3D2927129DB9DF600F05277 /* 11n.json */,
+				F3D2927429DB9DF600F05277 /* 13d.json */,
+				F3D2927B29DB9DF700F05277 /* 13n.json */,
+				F3D2927929DB9DF700F05277 /* 50d.json */,
+				F3D2926E29DB9DF600F05277 /* 50n.json */,
 			);
-			path = WeatherNowTests;
-			sourceTree = "<group>";
-		};
-		F3D2924A29DB9A6B00F05277 /* WeatherNowUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F3D2924B29DB9A6B00F05277 /* WeatherNowUITests.swift */,
-				F3D2924D29DB9A6B00F05277 /* WeatherNowUITestsLaunchTests.swift */,
-			);
-			path = WeatherNowUITests;
+			path = WeatherAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +201,11 @@
 			dependencies = (
 			);
 			name = WeatherNow;
+			packageProductDependencies = (
+				F3D2926529DB9BDD00F05277 /* SkeletonView */,
+				F3D2926829DB9C2B00F05277 /* Lottie */,
+				F3D2926B29DB9C4500F05277 /* Alamofire */,
+			);
 			productName = WeatherNow;
 			productReference = F3D2922729DB9A6900F05277 /* WeatherNow.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +278,11 @@
 				Base,
 			);
 			mainGroup = F3D2921E29DB9A6800F05277;
+			packageReferences = (
+				F3D2926429DB9BDD00F05277 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				F3D2926729DB9C2B00F05277 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				F3D2926A29DB9C4500F05277 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F3D2922829DB9A6900F05277 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +299,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D2928529DB9DF700F05277 /* 03n.json in Resources */,
+				F3D2928429DB9DF700F05277 /* 02n.json in Resources */,
+				F3D2928329DB9DF700F05277 /* 11n.json in Resources */,
+				F3D2928829DB9DF700F05277 /* 03d.json in Resources */,
+				F3D2928929DB9DF700F05277 /* 02d.json in Resources */,
+				F3D2928C29DB9DF700F05277 /* 10d.json in Resources */,
+				F3D2929129DB9DF700F05277 /* 04d.json in Resources */,
+				F3D2928F29DB9DF700F05277 /* 04n.json in Resources */,
 				F3D2923729DB9A6A00F05277 /* LaunchScreen.storyboard in Resources */,
+				F3D2928629DB9DF700F05277 /* 13d.json in Resources */,
 				F3D2923429DB9A6A00F05277 /* Assets.xcassets in Resources */,
+				F3D2928E29DB9DF700F05277 /* 09d.json in Resources */,
+				F3D2928729DB9DF700F05277 /* 01d.json in Resources */,
+				F3D2928B29DB9DF700F05277 /* 50d.json in Resources */,
 				F3D2923229DB9A6900F05277 /* Main.storyboard in Resources */,
+				F3D2928A29DB9DF700F05277 /* 11d.json in Resources */,
+				F3D2928229DB9DF700F05277 /* 09n.json in Resources */,
+				F3D2928D29DB9DF700F05277 /* 13n.json in Resources */,
+				F3D2928029DB9DF700F05277 /* 50n.json in Resources */,
+				F3D2928129DB9DF700F05277 /* 10n.json in Resources */,
+				F3D2929029DB9DF700F05277 /* 01n.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D2926329DB9B4000F05277 /* AlertManager.swift in Sources */,
 				F3D2922F29DB9A6900F05277 /* ViewController.swift in Sources */,
+				F3D2926129DB9B2400F05277 /* APIService.swift in Sources */,
 				F3D2922B29DB9A6900F05277 /* AppDelegate.swift in Sources */,
+				F3D2925B29DB9AF500F05277 /* APIKey.swift in Sources */,
+				F3D2925D29DB9B0400F05277 /* BackgroundImage.swift in Sources */,
+				F3D2925F29DB9B1400F05277 /* WeatherData.swift in Sources */,
 				F3D2922D29DB9A6900F05277 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +359,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D2924229DB9A6B00F05277 /* WeatherNowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D2924E29DB9A6B00F05277 /* WeatherNowUITestsLaunchTests.swift in Sources */,
-				F3D2924C29DB9A6B00F05277 /* WeatherNowUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +690,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3D2926429DB9BDD00F05277 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F3D2926729DB9C2B00F05277 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F3D2926A29DB9C4500F05277 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3D2926529DB9BDD00F05277 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3D2926429DB9BDD00F05277 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		F3D2926829DB9C2B00F05277 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3D2926729DB9C2B00F05277 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		F3D2926B29DB9C4500F05277 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3D2926A29DB9C4500F05277 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F3D2921F29DB9A6800F05277 /* Project object */;
 }
