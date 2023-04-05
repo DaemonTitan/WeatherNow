@@ -25,9 +25,5 @@
 	<array>
 		<string>location</string>
 	</array>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We requires to access your location data</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We requires to access your location data</string>
 </dict>
 </plist>
