@@ -271,8 +271,6 @@ extension ViewController: CLLocationManagerDelegate {
             }
         }
         locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
-        locationManager.allowsBackgroundLocationUpdates = true
-        locationManager.showsBackgroundLocationIndicator = true
     }
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
