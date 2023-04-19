@@ -175,7 +175,7 @@ class ViewController: UIViewController {
     
     /// Background color set up
     override func viewWillAppear(_ animated: Bool) {
-        backgroundImage.setBuleGradientBackground()
+        backgroundImage.setDefaultGradientBackground()
     }
     
     // MARK: show skeleton animation
@@ -343,10 +343,19 @@ extension ViewController: CLLocationManagerDelegate {
                 
                 /// Set day and night background colour
                 let dayNight = iconName.suffix(1)
-                if dayNight == "n" {
-                    self.backgroundImage.setGreyGradientBackground()
+                let rainIcon = ["03d", "04d", "09d", "11d", "13d"]
+                if iconName == "50d" {
+                    self.backgroundImage.setMistGradientBackground()
+
+                } else if rainIcon.contains(iconName) {
+                    self.backgroundImage.setRainGradientBackground()
+
+                } else if dayNight == "n" {
+                    self.backgroundImage.setNightGradientBackground()
+
                 } else {
-                    self.backgroundImage.setBuleGradientBackground()
+                    self.backgroundImage.setDefaultGradientBackground()
+
                 }
             }
         }
@@ -356,5 +365,3 @@ extension ViewController: CLLocationManagerDelegate {
         Alert.showLocationErrorAlert(on: self)
     }
 }
-
-
